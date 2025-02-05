@@ -1,0 +1,87 @@
+body{
+font-family: "Roboto", serif;
+background-color:#FFFFFF;
+color: black;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+header{
+    background-color: black;
+}
+.header-container {
+    display: flex;}
+
+   .header-menu-link:focus,
+   .header-menu-link:hover {
+    color: #E65F07;
+   }
+   .header-contact-list {
+       display: flex;
+       gap: 40px;
+   }
+   .header-contacts {
+       font-style: normal;
+   }
+   .header-menu-link {
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+color: #FFFFFF;  
+     margin-left: auto;
+   }
+   .search-box{
+    background-color: #0753DF;
+    height: 60px;
+    border-radius: 40px;
+    padding: 16px;
+    
+   }
+   .search-input{
+border: none;
+outline: none;background: none;
+font-style: 18px;
+line-height: 40px;
+letter-spacing: 2px;
+padding: 0;
+width: 0;
+   }
+   .searchbtn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0753DF;
+
+   }
